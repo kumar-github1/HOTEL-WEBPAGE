@@ -6,9 +6,13 @@ body {
 #header {
     display: flex;
     background-color: white;
-    padding: 16px;
+    padding: 16px 24px;
+    padding-right: 48px;
     justify-content: space-between;
     position: sticky;
+    top: 0%;
+    z-index: 1;
+
 }
 
 #leftheading {
@@ -19,8 +23,6 @@ body {
 #rightheading {
     display: flex;
     align-items: center;
-
-
 }
 
 #watchvideo {
@@ -32,6 +34,7 @@ body {
 #blocks {
     margin-right: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .menuitem {
@@ -51,7 +54,7 @@ body {
 }
 
 #buynow {
-    padding: 4px 16px;
+    padding: 8px 32px;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 600;
@@ -59,6 +62,11 @@ body {
     background-color: rgb(170, 210, 54);
     border: none;
     border-radius: 4px;
+}
+
+#buynow:hover,
+#buynow:active {
+    background-color: rgb(101, 133, 7);
 }
 
 #dropdownwrapper {
@@ -69,6 +77,7 @@ body {
 
 #dropdownmenu {
     position: absolute;
+    background-color: white;
     border-top: 2px solid rgb(170, 210, 54);
     border-radius: 8px;
     box-shadow: 0 2px 5px #ccc;
@@ -101,4 +110,54 @@ body {
 
 #dropdownwrapper:hover #dropdownmenu {
     display: block;
+}
+
+#section1 {
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+#section1>div {
+    text-align: center;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+
+}
+
+
+#section1>div>p:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+
+
+}
+
+#section1>div>p:last-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    Color: #8b8b99;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+
 }
