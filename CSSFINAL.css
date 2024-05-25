@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+
+}
+
+#header {
+    display: flex;
+    background-color: white;
+    padding: 16px;
+    justify-content: space-between;
+    position: sticky;
+}
+
+#leftheading {
+    display: flex;
+    align-items: center;
+}
+
+#rightheading {
+    display: flex;
+    align-items: center;
+
+
+}
+
+#watchvideo {
+    margin: 0px 20px;
+    border-radius: none;
+    text-decoration: none;
+}
+
+#blocks {
+    margin-right: 20px;
+    border: none;
+}
+
+.menuitem {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+}
+
+#disabledselection {
+    display: none;
+}
+
+#topbarlogo {
+    width: 36px;
+}
+
+#buynow {
+    padding: 4px 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    border: none;
+    border-radius: 4px;
+}
+
+#dropdownwrapper {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+#dropdownmenu {
+    position: absolute;
+    border-top: 2px solid rgb(170, 210, 54);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+    width: 130%;
+    text-align: center;
+    display: none;
+    left: -28px;
+    top: 35px;
+
+
+}
+
+.options {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px;
+    padding-bottom: 5px;
+    border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
+    cursor: pointer;
+
+}
+
+.options:last-child {
+    border-bottom: 0;
+}
+
+#dropdownwrapper:hover #dropdownmenu {
+    display: block;
+}
