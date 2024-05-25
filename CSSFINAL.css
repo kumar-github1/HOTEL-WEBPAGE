@@ -33,13 +33,14 @@ header {
 }
 
 #watchvideo {
-    margin: 0px 20px;
+    margin: 0px 32px;
+
     border-radius: none;
     text-decoration: none;
 }
 
 #blocks {
-    margin-right: 20px;
+    margin-right: 32px;
     border: none;
     cursor: pointer;
 }
