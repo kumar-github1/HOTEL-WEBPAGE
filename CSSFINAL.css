@@ -190,16 +190,6 @@ header {
     box-sizing: border-box;
 }
 
-@keyframes zoom {
-    0% {
-        scale: 1%;
-
-    }
-
-    100% {
-        scale: 1.1%;
-    }
-}
 
 #section2>div:nth-child(1) {
     background-color: #5acda6;
@@ -208,12 +198,12 @@ header {
 
 #section2>div i {
     font-size: 96px;
-
-
+    scale: 1;
+    transition: scale ease-in-out .3s;
 }
 
-#section8>div i:hover {
-    animation: zoom ease-in .5s 0s forwards 1;
+#section2>div i:hover {
+    scale: 1.2;
 }
 
 
@@ -296,6 +286,15 @@ header {
 
 }
 
+#section3>div>div>div:hover {
+    scale: 1.2;
+
+}
+
+#section3>div>div>div:hover #section3>div>div>div>i {
+    scale: 1.2;
+}
+
 #section3>div>div div {
     background-color: #e3b375;
     height: 150px;
@@ -303,6 +302,8 @@ header {
     border-radius: 75px;
     margin-right: auto;
     margin-left: auto;
+    scale: 1;
+    transition: scale ease-in-out .3s;
 
 }
 
@@ -313,6 +314,8 @@ header {
     top: 50%;
     transform: translateY(-50%);
     color: white;
+    scale: 1;
+    transition: scale ease-in-out .3s;
 
 }
 
@@ -362,6 +365,12 @@ header {
     margin-left: 40px;
     padding: 35px 15px;
     margin-top: 40px;
+    box-shadow: none;
+    transition: box-shadow ease-in-out .3s;
+}
+
+#section4>div:nth-of-type(2)>div:hover {
+    box-shadow: #8b8b99 2.5px 4px 10px;
 
 }
 
@@ -502,6 +511,14 @@ header {
     font-size: 15px;
 }
 
+#section5>div:last-of-type>button:hover {
+    background-color: transparent;
+    color: #f69dad;
+    border: .5px solid #f69dad;
+    padding: 19px 39px;
+    cursor: pointer;
+}
+
 #section6 {
     padding: 100px 0;
     display: flex;
@@ -628,6 +645,11 @@ header {
     border: none;
     border-radius: 4px;
 
+}
+
+#section8 button:hover,
+#section8 button:active {
+    background-color: rgb(101, 133, 7);
 }
 
 footer {
