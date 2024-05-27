@@ -22,8 +22,6 @@ header {
     padding-right: 48px;
     justify-content: space-between;
     z-index: 1;
-
-
 }
 
 #leftheading {
@@ -177,8 +175,6 @@ header {
 
 #section2 {
     display: flex;
-
-    justify-content: stretch;
     width: 100%;
     color: white;
 }
@@ -455,8 +451,6 @@ header {
 
 #section5>div:last-child {
     width: 30%;
-
-    ;
     background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
     text-align: center;
     background-position: 0px;
@@ -572,6 +566,10 @@ header {
     margin-top: 0;
 }
 
+#section8 {
+    display: flex;
+}
+
 #section8>div {
     display: flex;
 
@@ -613,7 +611,8 @@ header {
 }
 
 #section8>div>div>input {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 16px 18px;
     width: 100%;
     margin-bottom: 4%;
@@ -664,4 +663,95 @@ footer p {
     font-family: 'poppins', sans-serif;
     font-size: 14px;
     word-spacing: 2px;
+}
+
+@media screen and (max-width:900px) {
+    .menuitem {
+        display: none;
+    }
+
+    #buynow {
+        display: block;
+    }
+
+    #section1>div>p:first-child {
+        top: 30%
+    }
+
+    #section1>div>p:last-child {
+        top: 60%;
+    }
+
+    #section2 {
+        flex-direction: column;
+    }
+
+    #section2>div {
+        width: 100%;
+    }
+
+    #section3>div {
+        grid-template-columns: 300px;
+
+    }
+
+    #section4>div:nth-child(2) {
+        flex-direction: column;
+    }
+
+    #section4>div:nth-of-type(2)>div {
+        width: 80%;
+    }
+
+    #section5 {
+        flex-direction: column;
+    }
+
+    #section5>div:first-of-type {
+        width: 100%;
+
+        padding: 0;
+    }
+
+    #section5>div:last-of-type {
+        width: 100%;
+        padding: 0;
+    }
+
+    #section5>div>div {
+
+        width: 100%
+    }
+
+    #section6 {
+        flex-direction: column;
+    }
+
+    #section6>div {
+        width: 100%;
+        padding: 0;
+    }
+
+    #section7 iframe {
+        width: 100%;
+    }
+
+    #section8>div {
+        flex-direction: column;
+
+    }
+
+    #section8>div>div:first-of-type {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+    #section8>div>div:last-of-type {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+
+
 }
