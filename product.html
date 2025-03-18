@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Vegan Store</title>
+    <link rel="stylesheet" href="productStyles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Welcome to Vegan Store</h1>
+        <nav>
+            <button
+                style="background-color: rgb(170, 210, 54);padding:10px ; border : grey 1px solid ;border-radius: 5px;"><a
+                    href="cart.html" style="text-decoration: none;color: white;">View Cart</a></button>
+
+        </nav>
+    </header>
+    <div class="product-list">
+        <div class="product" data-id="1" data-name="Carrots" data-price="29.99">
+            <img src="https://media.istockphoto.com/id/1388403435/photo/fresh-carrots-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=XmrTb_nASc7d-4zVKUz0leeTT4fibDzWi_GpIun0Tlc="
+                alt="Carrots" class="product-image">
+            <p>Carrots - $29.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2" data-name="Cucumber" data-price="49.99">
+            <img src="https://media.istockphoto.com/id/492532141/photo/fresh-cucumber-on-the-wooden-table.jpg?s=612x612&w=0&k=20&c=cM2n_EqaUQS8ciL39mek3kPVt-qxBi-_OJpNx3XoKac="
+                alt="Cucumber" class="product-image">
+            <p>Cucumber - $49.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+    <script src="productScript.js"></script>
+</body>
+
+</html>

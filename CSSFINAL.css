@@ -122,7 +122,7 @@ header {
     display: block;
 }
 
-#section1 {
+/* #section1 {
     height: 100vh;
     width: 100%;
     overflow-y: hidden;
@@ -171,7 +171,10 @@ header {
     transform: translate(-50%, -50%);
     display: block;
 
-}
+} */
+
+
+
 
 #section2 {
     display: flex;
@@ -755,3 +758,134 @@ footer p {
 
 
 }
+
+/* 
+.view-products-btn {
+    display: block;
+    position: relative;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(170, 210, 54);
+    background: transparent;
+    border: 2px solid rgb(170, 210, 54);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-products-btn:hover {
+    background: rgb(170, 210, 54);
+    color: white;
+}  */
+
+#section1 {
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
+}
+
+#section1>div {
+    text-align: center;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section1>div>p:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#sub-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 70%;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view-products-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(170, 210, 54);
+    background: transparent;
+    border: 2px solid rgb(170, 210, 54);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-products-btn:hover {
+    background: rgb(170, 210, 54);
+    color: white;
+}
+
+/* #section1 {
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    position: relative;
+}
+
+#section1>div {
+    text-align: center;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+
+}
+
+
+#section1>div>p:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+
+
+}
+
+#section1>div>p:last-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    Color: #8b8b99;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+
+} */
